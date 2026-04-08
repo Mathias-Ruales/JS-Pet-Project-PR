@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="functions.js" defer></script>
+    <title>Javascript Pet Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>GitHub API Data Viewer</h1>
+    </header>
+    <main>
+      <section class="outputs">
+        <h2 id="popularRepos">Popular Repos</h2>
+        <output id="output-popular" class="output"
+          >Repos will appear here...</output
+        >
+        <button id="btn-popular" class="button">Get Repos > 5 Stars</button>
+      </section>
+
+      <section class="outputs">
+        <h2 id="recentlyUpdated">Recently Updated</h2>
+        <output id="output-recent" class="output"
+          >Repos will appear here...</output
+        >
+        <button id="btn-recent" class="button">Get Last 5 Updated</button>
+      </section>
+
+      <section class="outputs">
+        <h2 id="starCount">Total Star Count</h2>
+        <output id="output-total" class="output">0</output>
+        <button id="btn-total" class="button">Get Total Stars</button>
+      </section>
+    </main>
+  </body>
+</html>
